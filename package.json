@@ -2,5 +2,18 @@
   "name": "todo-list-socket",
   "version": "1.0.0",
   "main": "server.js",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.22",
+    "path": "^0.12.7",
+    "socket.io": "^4.6.1",
+    "url": "^0.11.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  }
 }
