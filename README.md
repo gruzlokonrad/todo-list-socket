@@ -1,3 +1,6 @@
 # Run
- yarn && node server.js
- cd client && yarn && yarn start
+Run server and client side
+```
+ $ yarn && node server.js
+ $ cd client && yarn && yarn start
+```
